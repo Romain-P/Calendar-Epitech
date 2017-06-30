@@ -5,13 +5,14 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Tue May 23 14:02:04 2017 romain pillot
-** Last update Wed Jun 21 11:17:39 2017 romain pillot
+** Last update Fri Jun 30 17:05:53 2017 romain pillot
 */
 
 #ifndef UTIL_H_
 # define UTIL_H_
 
 # include <stdbool.h>
+# include <stdlib.h>
 
 void	safe_free(void **ptr);
 
@@ -20,6 +21,8 @@ void	tab_free(void ***ptr);
 # define FREE(PTR)      (safe_free((void **) &(PTR)))
 
 # define TAB_FREE(PTR)	(tab_free((void ***) &(PTR)))
+
+void	*talloc(size_t s);
 
 void	tab_sort(char **tab);
 

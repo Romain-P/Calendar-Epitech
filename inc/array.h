@@ -5,7 +5,7 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Tue May 23 14:02:04 2017 romain pillot
-** Last update Tue May 30 13:47:24 2017 romain pillot
+** Last update Fri Jun 30 16:43:05 2017 romain pillot
 */
 
 #ifndef ARRAY_H_
@@ -26,5 +26,7 @@ void	array_destroy(t_array **array_addr, bool free_content);
 void	array_add(t_array *array, void *elem);
 
 void	array_del(t_array *array, const int index, bool free);
+
+void	array_rem(t_array *array, void *elem);
 
 #endif /* !ARRAY_H_ */

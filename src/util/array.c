@@ -5,7 +5,7 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Tue May 23 14:48:44 2017 romain pillot
-** Last update Tue May 30 14:38:55 2017 romain pillot
+** Last update Fri Jun 30 17:00:27 2017 romain pillot
 */
 
 #include <stdlib.h>
@@ -77,6 +77,24 @@ void		array_del(t_array *array, const int index, bool free_elem)
       new[++j] = array->values[i];
   if (free_elem)
     free(array->values[index]);
+  free(array->values);
+  array->values = new;
+  array->length--;
+}
+
+void            array_rem(t_array *array, void *addr)
+{
+  void          **new;
+  int           i;
+  int           j;
+
+  if (!array || !(new = malloc(sizeof(void *) * (array->length))))
+    return ;
+  new[array->length - 1] = 0;
+  i = (j = -1);
+  while (array->values[++i])
+    if (array->values + i != addr)
+      new[++j] = array->values[i];
   free(array->values);
   array->values = new;
   array->length--;
