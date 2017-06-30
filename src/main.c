@@ -5,7 +5,7 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Fri Jun 30 15:30:35 2017 romain pillot
-** Last update Fri Jun 30 18:19:01 2017 romain pillot
+** Last update Fri Jun 30 18:40:29 2017 romain pillot
 */
 
 #include <stdlib.h>
@@ -14,7 +14,7 @@
 #include "calendar.h"
 #include "util.h"
 
-static t_func	g_funcs[] =
+static t_func const	g_funcs[] =
 {
   {"new_employee", &employe_new},
   {"fire", &employe_del},
@@ -27,6 +27,23 @@ static t_func	g_funcs[] =
   {NULL, NULL}
 };
 
+t_func const	g_esort[] =
+{
+  {"sortByName", &sort_by_name},
+  {"sortByForname", &sort_by_forename},
+  {"sortByJob", &sort_by_job},
+  {"sortByZip", &sort_by_zip},
+  {"sortById", &sort_by_id},
+  {NULL, NULL}
+};
+
+t_func const	g_msort[] =
+{
+  {"sortByDate", &sort_by_date},
+  {"sortByZip", &sort_by_zip},
+  {"sortById", &sort_by_id}
+};
+
 int	main(int ac, char **args)
 {
   char	*str;
@@ -37,7 +54,7 @@ int	main(int ac, char **args)
   cal->emps = array_create();
   cal->meets = array_create();
   while ((str = scan_line(STDIN_FILENO)) &&
-	 !str_starts(str, "END")
+	 !str_starts(str, "END"))
     {
       i = -1;
       while (g_funcs[++i].label)
