@@ -5,7 +5,7 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Fri Jun 30 15:30:35 2017 romain pillot
-** Last update Fri Jun 30 18:01:30 2017 romain pillot
+** Last update Fri Jun 30 18:19:01 2017 romain pillot
 */
 
 #include <stdlib.h>
@@ -36,7 +36,8 @@ int	main(int ac, char **args)
   cal = talloc(sizeof(t_cal));
   cal->emps = array_create();
   cal->meets = array_create();
-  while ((str = scan_line(STDIN_FILENO)))
+  while ((str = scan_line(STDIN_FILENO)) &&
+	 !str_starts(str, "END")
     {
       i = -1;
       while (g_funcs[++i].label)
