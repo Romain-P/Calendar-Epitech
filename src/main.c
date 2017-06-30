@@ -5,7 +5,7 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Fri Jun 30 15:30:35 2017 romain pillot
-** Last update Fri Jun 30 18:40:29 2017 romain pillot
+** Last update Fri Jun 30 19:26:30 2017 romain pillot
 */
 
 #include <stdlib.h>
@@ -27,7 +27,7 @@ static t_func const	g_funcs[] =
   {NULL, NULL}
 };
 
-t_func const	g_esort[] =
+t_sort const	g_esort[] =
 {
   {"sortByName", &sort_by_name},
   {"sortByForname", &sort_by_forename},
@@ -37,7 +37,7 @@ t_func const	g_esort[] =
   {NULL, NULL}
 };
 
-t_func const	g_msort[] =
+t_sort const	g_msort[] =
 {
   {"sortByDate", &sort_by_date},
   {"sortByZip", &sort_by_zip},

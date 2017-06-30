@@ -5,17 +5,13 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Tue May 23 14:02:04 2017 romain pillot
-** Last update Fri Jun 30 18:48:00 2017 romain pillot
+** Last update Fri Jun 30 19:30:40 2017 romain pillot
 */
 
 #ifndef CALENDAR_H_
 # define CALENDAR_H_
 
 # include "array.h"
-
-export	g_esort;
-
-export	g_msort;
 
 typedef struct	s_emp
 {
@@ -44,6 +40,17 @@ typedef struct	s_func
   char const	*label;
   void		(*func)(t_cal *cal, char **args);
 }		t_func;
+
+typedef struct	s_sort
+{
+  char const	*name;
+  int		(*func)(const void *a, const void *b);
+}		t_sort;
+
+
+extern const t_sort	g_esort[];
+
+extern const t_sort	g_msort[];
 
 void	employe_new(t_cal *cal, char **args);
 
