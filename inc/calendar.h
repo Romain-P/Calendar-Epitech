@@ -5,7 +5,7 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Tue May 23 14:02:04 2017 romain pillot
-** Last update Fri Jun 30 19:30:40 2017 romain pillot
+** Last update Sat Jul  1 00:44:28 2017 hugo varloud
 */
 
 #ifndef CALENDAR_H_
@@ -67,5 +67,21 @@ void	meeting_invite(t_cal *cal, char **args);
 void	meeting_exclude(t_cal *cal, char **args);
 
 void	meeting_info(t_cal *cal, char **args);
+
+int     sort_by_date(const void *a, const void *b);
+
+int     sort_by_zip(const void *a, const void *b);
+
+int     sort_by_id(const void *a, const void *b);
+
+int     sort_by_name(const void *a, const void *b);
+
+int     sort_by_forename(const void *a, const void *b);
+
+int     sort_by_job(const void *a, const void *b);
+
+int     sort_by_zip(const void *a, const void *b);
+
+int     sort_by_id(const void *a, const void *b);
 
 #endif /* !CALENDAR_H_ */
