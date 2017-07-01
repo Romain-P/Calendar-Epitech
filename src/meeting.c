@@ -5,7 +5,7 @@
 ** Login   <hugo.varloud@epitech.net>
 ** 
 ** Started on  Sat Jul  1 10:57:38 2017 hugo varloud
-** Last update Sat Jul  1 10:57:40 2017 hugo varloud
+** Last update Sat Jul  1 10:12:46 2017 romain pillot
 */
 
 #include "calendar.h"
@@ -16,7 +16,7 @@ void		meeting_new(t_cal *cal, char **args)
   t_meet	*meet;
   int		i;
   t_emp		*found;
- 
+
   if (tab_length(args) < 4 || !valid_date(args[2]) ||
       find_meet((t_meet **) cal->meets->values, atoi(args[3])))
     return ;

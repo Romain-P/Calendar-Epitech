@@ -5,13 +5,13 @@
 ** Login   <hugo.varloud@epitech.net>
 ** 
 ** Started on  Sat Jul  1 11:13:52 2017 hugo varloud
-** Last update Sat Jul  1 11:13:54 2017 hugo varloud
+** Last update Sat Jul  1 10:12:58 2017 romain pillot
 */
 
 #ifndef LIST_H_
 # define LIST_H_
-#include <stdbool.h>
-#include <stdlib.h>
+# include <stdbool.h>
+# include <stdlib.h>
 
 typedef struct	s_elem
 {

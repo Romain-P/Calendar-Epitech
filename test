@@ -1,0 +1,8 @@
+new_employee Hasselhoff David PDG F-13000 1
+new_employee Hasselaoff David PDG P-PUTE 2
+new_employee Anderson Pamela DDR F-31000 3
+new_employee LeeNolin Gena DDR F-94270 4
+new_employee Charvet David DPR F-54000 5
+new_employee Hasselhoff David PUTE F-13000 0
+info_employees sortByName 1 2 3 4 5 0
+END

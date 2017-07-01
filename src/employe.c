@@ -5,7 +5,7 @@
 ** Login   <hugo.varloud@epitech.net>
 ** 
 ** Started on  Sat Jul  1 10:55:45 2017 hugo varloud
-** Last update Sat Jul  1 10:55:47 2017 hugo varloud
+** Last update Sat Jul  1 10:30:18 2017 romain pillot
 */
 
 #include <stdio.h>
@@ -75,7 +75,7 @@ static void	show_employe(t_cal *cal, t_emp *emp)
   printf("%s %s\n", emp->first, emp->last);
   printf("position:  %s\ncity:  %s\n", emp->pos, emp->city);
   meets = (t_meet **) array_cpy(emp->meets)->values;
-  qqsort(meets, tab_length(meets), sizeof(t_meet), &sort_by_date);
+  qqsort(meets, tab_length(meets), sizeof(t_meet *), &sort_by_date);
   i = -1;
   while (meets && meets[++i])
     {
@@ -83,7 +83,7 @@ static void	show_employe(t_cal *cal, t_emp *emp)
 	continue;
       printf("meeting on %s, %s, with ", meets[i]->date, meets[i]->city);
       emps = (t_emp **) array_cpy(meets[i]->emps)->values;
-      qqsort(emps, tab_length(emps), sizeof(t_emp *), &sort_by_name);
+      qqsort(emps, tab_length(emps), sizeof(t_emp *), &sort_by_forename);
       j = -1;
       while (emps && emps[++j])
 	if (emps[j] != emp)
