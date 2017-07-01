@@ -1,11 +1,11 @@
 /*
-** key_array.c for  in /home/romain.pillot/projects/ghoulc/src
+** array.c for array.c in /home/hugo.varloud/ADM_calendar_2016/src/util
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Tue May 23 14:48:44 2017 romain pillot
-** Last update Sat Jul  1 01:46:07 2017 romain pillot
+** Started on  Sat Jul  1 11:00:25 2017 hugo varloud
+** Last update Sat Jul  1 11:00:27 2017 hugo varloud
 */
 
 #include <stdlib.h>

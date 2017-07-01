@@ -1,11 +1,11 @@
 /*
-** str_contains.c for  in /home/romain.pillot/projects/ghoulc/src/str
+** str_contains.c for str_contains.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Tue May 30 11:39:23 2017 romain pillot
-** Last update Tue May 30 11:42:34 2017 romain pillot
+** Started on  Sat Jul  1 11:03:48 2017 hugo varloud
+** Last update Sat Jul  1 11:03:51 2017 hugo varloud
 */
 
 #include "util.h"

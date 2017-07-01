@@ -1,11 +1,11 @@
 /*
-** tab_sort.c for  in /home/romain.pillot/projects/ADM_SBMLparser_2016/src/util/str
+** tab_sort.c for tab_sort.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Tue Jun 13 12:35:51 2017 romain pillot
-** Last update Tue Jun 20 08:01:09 2017 romain pillot
+** Started on  Sat Jul  1 11:08:59 2017 hugo varloud
+** Last update Sat Jul  1 11:09:02 2017 hugo varloud
 */
 
 #include "util.h"

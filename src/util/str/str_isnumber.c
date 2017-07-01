@@ -1,11 +1,11 @@
 /*
-** str_isnumber.c for  in /home/romain.pillot/projects/ADM_palindrome_2016/src/util/str
+** str_isnumber.c for str_isnumber.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Fri Jun 16 06:43:03 2017 romain pillot
-** Last update Mon Jun 19 07:22:30 2017 romain pillot
+** Started on  Sat Jul  1 11:21:24 2017 hugo varloud
+** Last update Sat Jul  1 11:21:25 2017 hugo varloud
 */
 
 #include <stdbool.h>

@@ -1,11 +1,11 @@
 /*
-** read.c for  in /home/romain.pillot/projects/ghoulc/src
+** read.c for read.c in /home/hugo.varloud/ADM_calendar_2016/src/util
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Tue May 23 14:47:01 2017 romain pillot
-** Last update Wed Jun 14 10:20:30 2017 romain pillot
+** Started on  Sat Jul  1 11:01:35 2017 hugo varloud
+** Last update Sat Jul  1 11:01:37 2017 hugo varloud
 */
 
 #include <stdlib.h>

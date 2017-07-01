@@ -1,11 +1,11 @@
 /*
-** sortbye.c for  in /home/romain.pillot/projects/romhug/src
+** sortbye.c for sortbye.c in /home/hugo.varloud/ADM_calendar_2016/src
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Fri Jun 30 18:25:09 2017 romain pillot
-** Last update Sat Jul  1 00:45:35 2017 romain pillot
+** Started on  Sat Jul  1 10:58:32 2017 hugo varloud
+** Last update Sat Jul  1 10:58:34 2017 hugo varloud
 */
 
 #include "calendar.h"

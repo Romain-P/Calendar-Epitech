@@ -1,17 +1,17 @@
 /*
-** list.h for  in /home/romain.pillot/projects/CPE_2016_corewar/vm/include
+** list.h for list.h in /home/hugo.varloud/ADM_calendar_2016/inc
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Thu Mar 30 11:48:07 2017 romain pillot
-** Last update Sun Apr  2 20:17:51 2017 romain pillot
+** Started on  Sat Jul  1 11:13:52 2017 hugo varloud
+** Last update Sat Jul  1 11:13:54 2017 hugo varloud
 */
 
 #ifndef LIST_H_
 # define LIST_H_
-
-# include <stdbool.h>
+#include <stdbool.h>
+#include <stdlib.h>
 
 typedef struct	s_elem
 {

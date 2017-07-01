@@ -1,11 +1,11 @@
 ##
-## Makefile for  in /home/romain.pillot/projects/n4s
+## Makefile for Makefile in /home/hugo.varloud/ADM_calendar_2016
 ## 
-## Made by romain pillot
-## Login   <romain.pillot@epitech.net>
+## Made by hugo varloud
+## Login   <hugo.varloud@epitech.net>
 ## 
-## Started on  Sun Jun  4 17:02:11 2017 romain pillot
-## Last update Sat Jul  1 03:17:00 2017 romain pillot
+## Started on  Sat Jul  1 10:55:21 2017 hugo varloud
+## Last update Sat Jul  1 11:10:45 2017 hugo varloud
 ##
 
 CC	=	gcc
@@ -58,6 +58,7 @@ clean:
 
 fclean: clean
 	$(RM) $(NAME)
+	find -name "*~" -delete -or -name "#*#" -delete
 
 re: fclean all
 

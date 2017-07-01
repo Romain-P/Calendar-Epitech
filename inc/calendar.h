@@ -1,11 +1,11 @@
 /*
-** calendar.h for  in /home/romain.pillot/projects/romhug
+** calendar.h for calendar.h in /home/hugo.varloud/ADM_calendar_2016/inc
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Fri Jun 30 22:49:08 2017 romain pillot
-** Last update Sat Jul  1 03:38:27 2017 romain pillot
+** Started on  Sat Jul  1 11:13:38 2017 hugo varloud
+** Last update Sat Jul  1 11:13:39 2017 hugo varloud
 */
 
 #ifndef CALENDAR_H_

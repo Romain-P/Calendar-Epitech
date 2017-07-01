@@ -1,11 +1,11 @@
 /*
-** str_ends.c for  in /home/romain.pillot/projects/ADM_projTester_2016/src/util/str
+** str_ends.c for str_ends.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Wed Jun 21 11:10:09 2017 romain pillot
-** Last update Wed Jun 21 11:18:45 2017 romain pillot
+** Started on  Sat Jul  1 11:05:31 2017 hugo varloud
+** Last update Sat Jul  1 11:05:32 2017 hugo varloud
 */
 
 #include "util.h"

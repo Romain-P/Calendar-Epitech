@@ -1,11 +1,11 @@
 /*
-** display.c for  in /home/romain.pillot/projects/ghoulc/src
+** print.c for print.c in /home/hugo.varloud/ADM_calendar_2016/src/util
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Tue May 23 13:51:46 2017 romain pillot
-** Last update Wed Jun 14 10:20:40 2017 romain pillot
+** Started on  Sat Jul  1 11:01:14 2017 hugo varloud
+** Last update Sat Jul  1 11:01:16 2017 hugo varloud
 */
 
 #include <stdio.h>

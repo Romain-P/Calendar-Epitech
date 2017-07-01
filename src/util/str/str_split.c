@@ -1,11 +1,11 @@
 /*
-** str_split.c for  in /home/romain.pillot/projects/ghoulc/src/str
+** str_split.c for str_split.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Thu May 25 09:28:27 2017 romain pillot
-** Last update Mon Jun 12 11:22:42 2017 romain pillot
+** Started on  Sat Jul  1 11:07:41 2017 hugo varloud
+** Last update Sat Jul  1 11:07:43 2017 hugo varloud
 */
 
 #include <stdlib.h>

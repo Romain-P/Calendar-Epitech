@@ -1,11 +1,11 @@
 /*
-** str_reduce.c for  in /home/romain.pillot/projects/ghoulc/src/str
+** str_reduce.c for str_reduce.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Thu May 25 09:31:45 2017 romain pillot
-** Last update Mon Jun 12 10:26:37 2017 romain pillot
+** Started on  Sat Jul  1 11:06:20 2017 hugo varloud
+** Last update Sat Jul  1 11:06:22 2017 hugo varloud
 */
 
 #include "util.h"

@@ -1,11 +1,11 @@
 /*
-** str_countchar.c for  in /home/romain.pillot/projects/ghoulc/src/str
+** str_countchar.c for str_countchar.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Thu May 25 09:33:12 2017 romain pillot
-** Last update Thu May 25 09:42:39 2017 romain pillot
+** Started on  Sat Jul  1 11:04:17 2017 hugo varloud
+** Last update Sat Jul  1 11:04:18 2017 hugo varloud
 */
 
 #include "util.h"

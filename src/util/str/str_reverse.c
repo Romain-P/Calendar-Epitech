@@ -1,11 +1,11 @@
 /*
-** str_reverse.c for  in /home/romain.pillot/projects/ADM_palindrome_2016/src/util/str
+** str_reverse.c for str_reverse.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Thu Jun 15 14:10:04 2017 romain pillot
-** Last update Thu Jun 15 14:21:11 2017 romain pillot
+** Started on  Sat Jul  1 11:07:19 2017 hugo varloud
+** Last update Sat Jul  1 11:07:21 2017 hugo varloud
 */
 
 #include "util.h"

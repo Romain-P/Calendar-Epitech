@@ -1,11 +1,11 @@
 /*
-** list.c for  in /home/romain.pillot/projects/CPE_2016_corewar/vm/src/util
+** list.c for list.c in /home/hugo.varloud/ADM_calendar_2016/src/util
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Thu Mar 30 11:47:58 2017 romain pillot
-** Last update Mon Apr 24 14:44:58 2017 romain pillot
+** Started on  Sat Jul  1 11:01:00 2017 hugo varloud
+** Last update Sat Jul  1 11:01:01 2017 hugo varloud
 */
 
 #include <stdlib.h>

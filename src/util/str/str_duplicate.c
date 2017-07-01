@@ -1,11 +1,11 @@
 /*
-** str_duplicate.c for  in /home/romain.pillot/projects/ghoulc/src/str
+** str_duplicate.c for str_duplicate.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Sun May 28 03:24:50 2017 romain pillot
-** Last update Mon Jun 19 16:50:28 2017 romain pillot
+** Started on  Sat Jul  1 11:04:52 2017 hugo varloud
+** Last update Sat Jul  1 11:04:53 2017 hugo varloud
 */
 
 #include <stdlib.h>

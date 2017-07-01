@@ -1,11 +1,11 @@
 /*
-** meeting.c for  in /home/romain.pillot/projects/romhug/src
+** meeting.c for meeting.c in /home/hugo.varloud/ADM_calendar_2016/src
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Fri Jun 30 17:40:46 2017 romain pillot
-** Last update Sat Jul  1 03:39:21 2017 romain pillot
+** Started on  Sat Jul  1 10:57:38 2017 hugo varloud
+** Last update Sat Jul  1 10:57:40 2017 hugo varloud
 */
 
 #include "calendar.h"

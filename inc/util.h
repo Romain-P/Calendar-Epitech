@@ -1,11 +1,11 @@
 /*
-** util.h for  in /home/romain.pillot/projects/ghoulc/inc
+** util.h for util.h in /home/hugo.varloud/ADM_calendar_2016/inc
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Tue May 23 14:02:04 2017 romain pillot
-** Last update Sat Jul  1 01:09:43 2017 romain pillot
+** Started on  Sat Jul  1 11:14:17 2017 hugo varloud
+** Last update Sat Jul  1 11:14:20 2017 hugo varloud
 */
 
 #ifndef UTIL_H_

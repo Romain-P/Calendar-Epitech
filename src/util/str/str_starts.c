@@ -1,11 +1,11 @@
 /*
-** str_starts.c for  in /home/romain.pillot/projects/SBMLparser/src/util/str
+** str_starts.c for str_starts.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Mon Jun 12 09:04:58 2017 romain pillot
-** Last update Mon Jun 12 09:05:52 2017 romain pillot
+** Started on  Sat Jul  1 11:08:13 2017 hugo varloud
+** Last update Sat Jul  1 11:08:15 2017 hugo varloud
 */
 
 #include "util.h"

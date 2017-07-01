@@ -1,11 +1,11 @@
 /*
-** tricky.c for  in /home/romain.pillot/projects/romhug/src
+** tricky.c for tricky.c in /home/hugo.varloud/ADM_calendar_2016/src
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Fri Jun 30 17:01:24 2017 romain pillot
-** Last update Sat Jul  1 01:17:43 2017 romain pillot
+** Started on  Sat Jul  1 10:59:22 2017 hugo varloud
+** Last update Sat Jul  1 10:59:23 2017 hugo varloud
 */
 
 #include <stdlib.h>

@@ -1,11 +1,11 @@
 /*
-** free.c for  in /home/romain.pillot/projects/ghoulc/src
+** free.c for free.c in /home/hugo.varloud/ADM_calendar_2016/src/util
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Sun May 28 03:15:41 2017 romain pillot
-** Last update Sat Jun  3 17:00:04 2017 romain pillot
+** Started on  Sat Jul  1 11:00:41 2017 hugo varloud
+** Last update Sat Jul  1 11:00:42 2017 hugo varloud
 */
 
 #include <stdlib.h>

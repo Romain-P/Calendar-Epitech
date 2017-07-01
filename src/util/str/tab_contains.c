@@ -1,11 +1,11 @@
 /*
-** tab_contains.c for  in /home/romain.pillot/projects/ADM_SBMLparser_2016/src/util/str
+** tab_contains.c for tab_contains.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Wed Jun 14 13:25:58 2017 romain pillot
-** Last update Mon Jun 19 14:17:21 2017 romain pillot
+** Started on  Sat Jul  1 11:08:38 2017 hugo varloud
+** Last update Sat Jul  1 11:08:40 2017 hugo varloud
 */
 
 #include "util.h"

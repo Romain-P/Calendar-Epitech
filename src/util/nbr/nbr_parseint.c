@@ -1,11 +1,11 @@
 /*
-** nbr_parsestring.c for  in /home/romain.pillot/projects/ghoulc/src/nbr
+** nbr_parseint.c for nbr_parseint.c in /home/hugo.varloud/ADM_calendar_2016/src/util/nbr
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Sun May 28 16:18:26 2017 romain pillot
-** Last update Sat Jun  3 16:57:02 2017 romain pillot
+** Started on  Sat Jul  1 11:02:08 2017 hugo varloud
+** Last update Sat Jul  1 11:02:10 2017 hugo varloud
 */
 
 #include "util.h"

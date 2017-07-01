@@ -1,11 +1,11 @@
 /*
-** str_replace.c for  in /home/romain.pillot/projects/ADM_FASTAtools_2016/src/util/str
+** str_replace.c for str_replace.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Mon Jun 19 12:35:57 2017 romain pillot
-** Last update Mon Jun 19 12:37:45 2017 romain pillot
+** Started on  Sat Jul  1 11:06:56 2017 hugo varloud
+** Last update Sat Jul  1 11:06:58 2017 hugo varloud
 */
 
 char	*str_replace(char *str, const char target, const char new)

@@ -1,11 +1,11 @@
 /*
-** str_equals.c for  in /home/romain.pillot/projects/ghoulc/src/str
+** str_equals.c for str_equals.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Sun May 28 04:14:38 2017 romain pillot
-** Last update Sun May 28 04:16:01 2017 romain pillot
+** Started on  Sat Jul  1 11:20:16 2017 hugo varloud
+** Last update Sat Jul  1 11:20:18 2017 hugo varloud
 */
 
 #include "util.h"

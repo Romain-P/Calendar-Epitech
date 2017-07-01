@@ -1,11 +1,11 @@
 /*
-** str_concat.c for  in /home/romain.pillot/projects/ADM_SBMLparser_2016/src/util/str
+** str_concat.c for str_concat.c in /home/hugo.varloud/ADM_calendar_2016/src/util/str
 ** 
-** Made by romain pillot
-** Login   <romain.pillot@epitech.net>
+** Made by hugo varloud
+** Login   <hugo.varloud@epitech.net>
 ** 
-** Started on  Tue Jun 13 17:31:21 2017 romain pillot
-** Last update Wed Jun 14 10:19:55 2017 romain pillot
+** Started on  Sat Jul  1 11:03:16 2017 hugo varloud
+** Last update Sat Jul  1 11:03:18 2017 hugo varloud
 */
 
 #include <stdlib.h>
