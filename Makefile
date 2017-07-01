@@ -5,7 +5,7 @@
 ## Login   <hugo.varloud@epitech.net>
 ## 
 ## Started on  Sat Jul  1 10:55:21 2017 hugo varloud
-## Last update Sat Jul  1 11:10:45 2017 hugo varloud
+## Last update Sat Jul  1 11:18:57 2017 romain pillot
 ##
 
 CC	=	gcc
@@ -22,27 +22,18 @@ SRCS	=	src/main.c			\
 		src/meeting.c			\
 		src/meeting_util.c		\
 		src/tricky.c			\
-		src/util/print.c		\
 		src/util/read.c			\
 		src/util/array.c		\
-		src/util/list.c			\
 		src/util/free.c			\
-		src/util/nbr/nbr_parseint.c	\
-		src/util/str/str_contains.c	\
-		src/util/str/str_starts.c	\
-		src/util/str/tab_sort.c		\
-		src/util/str/tab_contains.c	\
-		src/util/str/str_countchar.c	\
-		src/util/str/str_duplicate.c	\
-		src/util/str/str_equals.c	\
-		src/util/str/str_length.c	\
-		src/util/str/str_reduce.c	\
-		src/util/str/str_split.c	\
-		src/util/str/str_reverse.c	\
-		src/util/str/str_concat.c	\
-		src/util/str/str_isnumber.c	\
-		src/util/str/str_replace.c	\
-		src/util/str/str_ends.c
+		src/util/str_starts.c		\
+		src/util/tab_contains.c		\
+		src/util/str_countchar.c	\
+		src/util/str_duplicate.c	\
+		src/util/str_equals.c		\
+		src/util/str_length.c		\
+		src/util/str_reduce.c		\
+		src/util/str_split.c		\
+		src/util/str_concat.c
 
 OBJS	=	$(SRCS:.c=.o)
 
