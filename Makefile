@@ -5,7 +5,7 @@
 ## Login   <romain.pillot@epitech.net>
 ## 
 ## Started on  Sun Jun  4 17:02:11 2017 romain pillot
-## Last update Fri Jun 30 18:26:24 2017 romain pillot
+## Last update Sat Jul  1 03:17:00 2017 romain pillot
 ##
 
 CC	=	gcc
@@ -15,10 +15,12 @@ NAME	=	calendar
 RM	=	rm -f
 
 SRCS	=	src/main.c			\
+		src/util.c			\
 		src/sortbym.c			\
 		src/sortbye.c			\
 		src/employe.c			\
 		src/meeting.c			\
+		src/meeting_util.c		\
 		src/tricky.c			\
 		src/util/print.c		\
 		src/util/read.c			\
@@ -44,7 +46,7 @@ SRCS	=	src/main.c			\
 
 OBJS	=	$(SRCS:.c=.o)
 
-CFLAGS	+=	-Iinc -g #-Werror -Wall -Wextra
+CFLAGS	+=	-Iinc -g3 #-Werror -Wall -Wextra
 
 all:	$(NAME)
 

@@ -5,7 +5,7 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Tue May 23 14:48:44 2017 romain pillot
-** Last update Fri Jun 30 17:00:27 2017 romain pillot
+** Last update Sat Jul  1 01:46:07 2017 romain pillot
 */
 
 #include <stdlib.h>
@@ -93,7 +93,7 @@ void            array_rem(t_array *array, void *addr)
   new[array->length - 1] = 0;
   i = (j = -1);
   while (array->values[++i])
-    if (array->values + i != addr)
+    if (array->values[i] != addr)
       new[++j] = array->values[i];
   free(array->values);
   array->values = new;

@@ -5,7 +5,7 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Tue May 23 14:02:04 2017 romain pillot
-** Last update Fri Jun 30 17:05:53 2017 romain pillot
+** Last update Sat Jul  1 01:09:43 2017 romain pillot
 */
 
 #ifndef UTIL_H_
@@ -23,6 +23,9 @@ void	tab_free(void ***ptr);
 # define TAB_FREE(PTR)	(tab_free((void ***) &(PTR)))
 
 void	*talloc(size_t s);
+
+void    qqsort(void *base, size_t nitems, size_t size,
+	       int (*compar)(const void *a, const void *b));
 
 void	tab_sort(char **tab);
 
@@ -48,7 +51,7 @@ bool	str_ends(const char *str, const char *charset);
 
 int	str_length(const char *str);
 
-int	tab_length(char **tab);
+int	tab_length(void *tab);
 
 char	*str_dupl(const char *str);
 

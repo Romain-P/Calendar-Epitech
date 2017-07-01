@@ -5,7 +5,7 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Fri Jun 30 15:30:35 2017 romain pillot
-** Last update Fri Jun 30 19:26:30 2017 romain pillot
+** Last update Sat Jul  1 01:31:41 2017 romain pillot
 */
 
 #include <stdlib.h>
@@ -40,8 +40,8 @@ t_sort const	g_esort[] =
 t_sort const	g_msort[] =
 {
   {"sortByDate", &sort_by_date},
-  {"sortByZip", &sort_by_zip},
-  {"sortById", &sort_by_id}
+  {"sortByZip", &sort_by_zip_alt},
+  {"sortById", &sort_by_id_alt}
 };
 
 int	main(int ac, char **args)
@@ -58,11 +58,9 @@ int	main(int ac, char **args)
     {
       i = -1;
       while (g_funcs[++i].label)
-	{
-	  if (str_starts(str, str_concat(str_dupl(g_funcs[i].label), " ", false)))
-	    g_funcs[i].func(cal, str_split(str_dupl(str), ' '));
-	  FREE(str);
-	}
+	if (str_starts(str, str_concat(str_dupl(g_funcs[i].label), " ", false)))
+	  g_funcs[i].func(cal, str_split(str_dupl(str), ' '));
+      FREE(str);
     }
   return (EXIT_SUCCESS);
 }
