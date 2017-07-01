@@ -5,7 +5,7 @@
 ** Login   <romain.pillot@epitech.net>
 ** 
 ** Started on  Sat Jul  1 03:09:13 2017 romain pillot
-** Last update Sat Jul  1 03:49:23 2017 romain pillot
+** Last update Sat Jul  1 03:55:59 2017 romain pillot
 */
 
 #include <stdio.h>
@@ -17,6 +17,8 @@ void		show_meeting(t_cal *cal, t_meet *meet)
   t_emp		**emps;
   int		i;
 
+  if (meet->emps->length <= 1)
+    return ;
   printf("******************************\nMEETING\n");
   printf("date:  %s\n", meet->date);
   printf("place:  %s\n", meet->city);
